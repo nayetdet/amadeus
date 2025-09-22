@@ -1,0 +1,7 @@
+services:
+  amadeus:
+    build:
+      context: .
+      dockerfile: ./docker/uv/Dockerfile
+    container_name: amadeus
+    restart: unless-stopped

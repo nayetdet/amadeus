@@ -1,0 +1,18 @@
+[project]
+name = "amadeus"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = [
+    { name = "nayetdet", email = "jpmoreiracampos21@gmail.com" }
+]
+requires-python = ">=3.10, <3.11"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "edge-tts>=7.2.3",
+    "fastapi>=0.117.1",
+    "rvc-python>=0.1.5",
+    "tensorboardx>=2.6.4",
+    "torch>=2.8.0",
+    "uvicorn>=0.36.0",
+]
