@@ -86,3 +86,6 @@ venv/
 
 # VS Code
 .vscode/
+
+# Assets
+assets/
